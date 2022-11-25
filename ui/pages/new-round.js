@@ -134,6 +134,18 @@ export default function NewRoundPage({ currentGroup }) {
               </Button>
             </form>
           </div>
+          <Link href="https://cobudget.com/">
+            <a className="block mt-10 text-center rounded-lg border-2 border-red-400 px-6 py-4 font-semibold text-sm text-gray-600 bg-white cursor-pointer ">
+              <span className="text-black">⚠️ WARNING: dreams.wtf comes with no support!</span>{" "}
+              <span className="bg-red-400 rounded px-1 mr-0.5 text-white text-xs">
+                GO TO COBUDGET.COM
+              </span>{" "}
+              This deployment of the Cobudget platform is only meant for experimental participatory events that are 100% volunteer run. 
+              Some features on this version might be experimental or unfinished.
+              Dreams.wtf comes with no support, and if you are using it for an event that pays anyone for their work, we ask you to use cobudget.com.
+              If you would like a whitelabel version of Cobudget for your own organization, get in touch with hugi@cobudget.com to discuss options.
+            </a>
+          </Link>   
         </div>
       </div>
     </>
