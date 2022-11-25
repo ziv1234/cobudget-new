@@ -70,7 +70,7 @@ const Layout = ({
             Please see our license in the file /LICENSE in this repo for details on how you're allowed to change this section */}
         <div>
           <FormattedMessage
-            defaultMessage="You are using <a1>Cobudget</a1>. Source code available <a2>online</a2>. </br> This deployment comes with no support and could break without warning. Use <a1>cobudget.com</a1> for the offical supported version."
+            defaultMessage="You are using <a1>Cobudget</a1>. Source code available <a2>online</a2>. <br/> This deployment comes with no support and could break without warning. Use <a1>cobudget.com</a1> for the offical supported version."
             values={{
               a1: (msg) => (
                 <LinkOut href="https://cobudget.com/">{msg}</LinkOut>
