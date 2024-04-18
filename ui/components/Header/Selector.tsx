@@ -66,7 +66,7 @@ export default function Selector({
         leaveTo="transform opacity-0 scale-95"
       >
         <Menu.Items className="absolute z-10  w-72 mt-2 p-2 origin-top bg-white rounded-md shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none">
-          <div className="pb-1 mb-1 border-b-default border-gray-200">
+          <div className="pb-1 mb-1">
             {currentUser?.groupMemberships?.map((groupMember) => {
               return (
                 <Menu.Item key={groupMember.id}>
@@ -148,17 +148,6 @@ export default function Selector({
                 );
               })}
           </div>
-          <Menu.Item>
-            {({ active }) => (
-              <LinkItem
-                href={`/new-round`}
-                active={active}
-                className="text-gray-500 hover:text-gray-900"
-              >
-                <FormattedMessage defaultMessage="New Round" />
-              </LinkItem>
-            )}
-          </Menu.Item>
         </Menu.Items>
       </Transition>
     </Menu>
